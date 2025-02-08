@@ -194,22 +194,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PassonProject.Controllers.PlaylistXSongsController",
-    "Method": "UpdateSongAddedDate",
-    "RelativePath": "api/PlaylistXSongs/UpdateSongAddedDate",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "playlistXSongDTO",
-        "Type": "PassonProject.Models.PlaylistXSongDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "PassonProject.Controllers.SongController",
     "Method": "AddSong",
     "RelativePath": "api/Song/AddSong",

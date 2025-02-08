@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ewR4tohE02Q=",
+  "dgSpecHash": "DZ/5ozkEFuk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProject\\PassonProject\\PassonProject.csproj",
+  "projectFilePath": "C:\\Users\\Rohit kumar\\Documents\\Programing class\\Semester 2\\Back-end-2\\PassonProjectMusicPlaylist\\PassonProject\\PassonProject\\PassonProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rohit kumar\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Rohit kumar\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

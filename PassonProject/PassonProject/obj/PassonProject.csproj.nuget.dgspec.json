@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rohit kumar\\source\\repos\\PassonProject\\PassonProject\\PassonProject.csproj": {}
+    "C:\\Users\\Rohit kumar\\Documents\\Programing class\\Semester 2\\Back-end-2\\PassonProjectMusicPlaylist\\PassonProject\\PassonProject\\PassonProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rohit kumar\\source\\repos\\PassonProject\\PassonProject\\PassonProject.csproj": {
+    "C:\\Users\\Rohit kumar\\Documents\\Programing class\\Semester 2\\Back-end-2\\PassonProjectMusicPlaylist\\PassonProject\\PassonProject\\PassonProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProject\\PassonProject\\PassonProject.csproj",
+        "projectUniqueName": "C:\\Users\\Rohit kumar\\Documents\\Programing class\\Semester 2\\Back-end-2\\PassonProjectMusicPlaylist\\PassonProject\\PassonProject\\PassonProject.csproj",
         "projectName": "PassonProject",
-        "projectPath": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProject\\PassonProject\\PassonProject.csproj",
+        "projectPath": "C:\\Users\\Rohit kumar\\Documents\\Programing class\\Semester 2\\Back-end-2\\PassonProjectMusicPlaylist\\PassonProject\\PassonProject\\PassonProject.csproj",
         "packagesPath": "C:\\Users\\Rohit kumar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProject\\PassonProject\\obj\\",
+        "outputPath": "C:\\Users\\Rohit kumar\\Documents\\Programing class\\Semester 2\\Back-end-2\\PassonProjectMusicPlaylist\\PassonProject\\PassonProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rohit kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
