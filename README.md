@@ -89,5 +89,3 @@ This API manages playlists and songs within the Passon project. It provides endp
 ## **Contributing**
 Feel free to fork the project, submit pull requests, or open issues if you encounter any problems or have suggestions for improvements.
 
-## **License**
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
