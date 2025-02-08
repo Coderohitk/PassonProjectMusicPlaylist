@@ -1,0 +1,284 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBD28085-D48D-4E9B-A3D6-4A6CBC852558}|PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist.csproj|c:\\users\\rohit kumar\\source\\repos\\passonprojectmusicplaylist\\passonprojectmusicplaylist\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBD28085-D48D-4E9B-A3D6-4A6CBC852558}|PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist.csproj|solutionrelative:passonprojectmusicplaylist\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBD28085-D48D-4E9B-A3D6-4A6CBC852558}|PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist.csproj|c:\\users\\rohit kumar\\source\\repos\\passonprojectmusicplaylist\\passonprojectmusicplaylist\\data\\migrations\\20250208000549_song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBD28085-D48D-4E9B-A3D6-4A6CBC852558}|PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist.csproj|solutionrelative:passonprojectmusicplaylist\\data\\migrations\\20250208000549_song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBD28085-D48D-4E9B-A3D6-4A6CBC852558}|PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist.csproj|c:\\users\\rohit kumar\\source\\repos\\passonprojectmusicplaylist\\passonprojectmusicplaylist\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBD28085-D48D-4E9B-A3D6-4A6CBC852558}|PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist.csproj|solutionrelative:passonprojectmusicplaylist\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBD28085-D48D-4E9B-A3D6-4A6CBC852558}|PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist.csproj|c:\\users\\rohit kumar\\source\\repos\\passonprojectmusicplaylist\\passonprojectmusicplaylist\\data\\migrations\\20250208003954_playlistxsong-playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBD28085-D48D-4E9B-A3D6-4A6CBC852558}|PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist.csproj|solutionrelative:passonprojectmusicplaylist\\data\\migrations\\20250208003954_playlistxsong-playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBD28085-D48D-4E9B-A3D6-4A6CBC852558}|PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist.csproj|c:\\users\\rohit kumar\\source\\repos\\passonprojectmusicplaylist\\passonprojectmusicplaylist\\data\\migrations\\20250208004550_bridgeofsongandplaylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBD28085-D48D-4E9B-A3D6-4A6CBC852558}|PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist.csproj|solutionrelative:passonprojectmusicplaylist\\data\\migrations\\20250208004550_bridgeofsongandplaylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\20250208005003_newupdates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassonProjectMusicPlaylist\\Data\\Migrations\\20250208005003_newupdates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBD28085-D48D-4E9B-A3D6-4A6CBC852558}|PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist.csproj|c:\\users\\rohit kumar\\source\\repos\\passonprojectmusicplaylist\\passonprojectmusicplaylist\\models\\playlistxsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBD28085-D48D-4E9B-A3D6-4A6CBC852558}|PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist.csproj|solutionrelative:passonprojectmusicplaylist\\models\\playlistxsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBD28085-D48D-4E9B-A3D6-4A6CBC852558}|PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist.csproj|c:\\users\\rohit kumar\\source\\repos\\passonprojectmusicplaylist\\passonprojectmusicplaylist\\models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBD28085-D48D-4E9B-A3D6-4A6CBC852558}|PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist.csproj|solutionrelative:passonprojectmusicplaylist\\models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_PassonProjectMusicPlaylist_adf2dd2b_72ab_4d42_a658_31671056c679/True/SqlTable/dbo.Playlists.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_PassonProjectMusicPlaylist_adf2dd2b_72ab_4d42_a658_31671056c679/True/SqlTable/dbo.Songs.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_PassonProjectMusicPlaylist_adf2dd2b_72ab_4d42_a658_31671056c679/True/SqlTable/dbo.PlaylistXSong.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\20250208004233_playlistxsong-song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassonProjectMusicPlaylist\\Data\\Migrations\\20250208004233_playlistxsong-song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBD28085-D48D-4E9B-A3D6-4A6CBC852558}|PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist.csproj|c:\\users\\rohit kumar\\source\\repos\\passonprojectmusicplaylist\\passonprojectmusicplaylist\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBD28085-D48D-4E9B-A3D6-4A6CBC852558}|PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist.csproj|solutionrelative:passonprojectmusicplaylist\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\20250208001538_PlaylistXSong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassonProjectMusicPlaylist\\Data\\Migrations\\20250208001538_PlaylistXSong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\20250208001127_Playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassonProjectMusicPlaylist\\Data\\Migrations\\20250208001127_Playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBD28085-D48D-4E9B-A3D6-4A6CBC852558}|PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist.csproj|c:\\users\\rohit kumar\\source\\repos\\passonprojectmusicplaylist\\passonprojectmusicplaylist\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBD28085-D48D-4E9B-A3D6-4A6CBC852558}|PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist.csproj|solutionrelative:passonprojectmusicplaylist\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "00000000000000_CreateIdentitySchema.cs",
+              "DocumentMoniker": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeDocumentMoniker": "PassonProjectMusicPlaylist\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ToolTip": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeToolTip": "PassonProjectMusicPlaylist\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T00:51:28.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "PassonProjectMusicPlaylist\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "PassonProjectMusicPlaylist\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T00:51:22.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250208005003_newupdates.cs",
+              "DocumentMoniker": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\20250208005003_newupdates.cs",
+              "RelativeDocumentMoniker": "PassonProjectMusicPlaylist\\Data\\Migrations\\20250208005003_newupdates.cs",
+              "ToolTip": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\20250208005003_newupdates.cs",
+              "RelativeToolTip": "PassonProjectMusicPlaylist\\Data\\Migrations\\20250208005003_newupdates.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T00:50:03.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250208004550_bridgeofsongandplaylist.cs",
+              "DocumentMoniker": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\20250208004550_bridgeofsongandplaylist.cs",
+              "RelativeDocumentMoniker": "PassonProjectMusicPlaylist\\Data\\Migrations\\20250208004550_bridgeofsongandplaylist.cs",
+              "ToolTip": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\20250208004550_bridgeofsongandplaylist.cs",
+              "RelativeToolTip": "PassonProjectMusicPlaylist\\Data\\Migrations\\20250208004550_bridgeofsongandplaylist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T00:45:50.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Song.cs",
+              "DocumentMoniker": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Models\\Song.cs",
+              "RelativeDocumentMoniker": "PassonProjectMusicPlaylist\\Models\\Song.cs",
+              "ToolTip": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Models\\Song.cs",
+              "RelativeToolTip": "PassonProjectMusicPlaylist\\Models\\Song.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T00:02:44.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlaylistXSong.cs",
+              "DocumentMoniker": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Models\\PlaylistXSong.cs",
+              "RelativeDocumentMoniker": "PassonProjectMusicPlaylist\\Models\\PlaylistXSong.cs",
+              "ToolTip": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Models\\PlaylistXSong.cs",
+              "RelativeToolTip": "PassonProjectMusicPlaylist\\Models\\PlaylistXSong.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T00:12:00.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250208000549_song.cs",
+              "DocumentMoniker": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\20250208000549_song.cs",
+              "RelativeDocumentMoniker": "PassonProjectMusicPlaylist\\Data\\Migrations\\20250208000549_song.cs",
+              "ToolTip": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\20250208000549_song.cs",
+              "RelativeToolTip": "PassonProjectMusicPlaylist\\Data\\Migrations\\20250208000549_song.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T00:05:50.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dbo.Playlists [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_PassonProjectMusicPlaylist_adf2dd2b_72ab_4d42_a658_31671056c679/True/SqlTable/dbo.Playlists.sql",
+              "ToolTip": "dbo.Playlists [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-08T00:47:03.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250208003954_playlistxsong-playlist.cs",
+              "DocumentMoniker": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\20250208003954_playlistxsong-playlist.cs",
+              "RelativeDocumentMoniker": "PassonProjectMusicPlaylist\\Data\\Migrations\\20250208003954_playlistxsong-playlist.cs",
+              "ToolTip": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\20250208003954_playlistxsong-playlist.cs",
+              "RelativeToolTip": "PassonProjectMusicPlaylist\\Data\\Migrations\\20250208003954_playlistxsong-playlist.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBcAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T00:39:54.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dbo.Songs [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_PassonProjectMusicPlaylist_adf2dd2b_72ab_4d42_a658_31671056c679/True/SqlTable/dbo.Songs.sql",
+              "ToolTip": "dbo.Songs [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-08T00:46:58.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "dbo.PlaylistXSong [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_PassonProjectMusicPlaylist_adf2dd2b_72ab_4d42_a658_31671056c679/True/SqlTable/dbo.PlaylistXSong.sql",
+              "ToolTip": "dbo.PlaylistXSong [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-08T00:46:50.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250208004233_playlistxsong-song.cs",
+              "DocumentMoniker": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\20250208004233_playlistxsong-song.cs",
+              "RelativeDocumentMoniker": "PassonProjectMusicPlaylist\\Data\\Migrations\\20250208004233_playlistxsong-song.cs",
+              "ToolTip": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\20250208004233_playlistxsong-song.cs",
+              "RelativeToolTip": "PassonProjectMusicPlaylist\\Data\\Migrations\\20250208004233_playlistxsong-song.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T00:42:33.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250208001538_PlaylistXSong.cs",
+              "DocumentMoniker": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\20250208001538_PlaylistXSong.cs",
+              "RelativeDocumentMoniker": "PassonProjectMusicPlaylist\\Data\\Migrations\\20250208001538_PlaylistXSong.cs",
+              "ToolTip": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\20250208001538_PlaylistXSong.cs",
+              "RelativeToolTip": "PassonProjectMusicPlaylist\\Data\\Migrations\\20250208001538_PlaylistXSong.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T00:15:39.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250208001127_Playlist.cs",
+              "DocumentMoniker": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\20250208001127_Playlist.cs",
+              "RelativeDocumentMoniker": "PassonProjectMusicPlaylist\\Data\\Migrations\\20250208001127_Playlist.cs",
+              "ToolTip": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\Migrations\\20250208001127_Playlist.cs",
+              "RelativeToolTip": "PassonProjectMusicPlaylist\\Data\\Migrations\\20250208001127_Playlist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T00:11:27.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Playlist.cs",
+              "DocumentMoniker": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Models\\Playlist.cs",
+              "RelativeDocumentMoniker": "PassonProjectMusicPlaylist\\Models\\Playlist.cs",
+              "ToolTip": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Models\\Playlist.cs",
+              "RelativeToolTip": "PassonProjectMusicPlaylist\\Models\\Playlist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T00:08:27.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PassonProjectMusicPlaylist\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Rohit kumar\\source\\repos\\PassonProjectMusicPlaylist\\PassonProjectMusicPlaylist\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PassonProjectMusicPlaylist\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T00:04:53.212Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
