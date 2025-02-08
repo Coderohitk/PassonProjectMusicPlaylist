@@ -1,0 +1,321 @@
+[
+  {
+    "ContainingType": "PassonProject.Controllers.PlaylistsController",
+    "Method": "AddPlaylist",
+    "RelativePath": "api/Playlists/AddPlaylist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playlistDTO",
+        "Type": "PassonProject.Models.PlaylistDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PassonProject.Models.PlaylistDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PassonProject.Controllers.PlaylistsController",
+    "Method": "DeletePlaylist",
+    "RelativePath": "api/Playlists/DeletePlaylist/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PassonProject.Controllers.PlaylistsController",
+    "Method": "FindPlaylist",
+    "RelativePath": "api/Playlists/FindSong/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PassonProject.Models.PlaylistDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PassonProject.Controllers.PlaylistsController",
+    "Method": "ListPlaylists",
+    "RelativePath": "api/Playlists/ListPlaylists",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[PassonProject.Models.PlaylistDTO, PassonProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PassonProject.Controllers.PlaylistsController",
+    "Method": "ListSongsForPlaylist",
+    "RelativePath": "api/Playlists/ListSongsForPlaylist/{playlistId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playlistId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PassonProject.Controllers.PlaylistsController",
+    "Method": "UpdatePlaylist",
+    "RelativePath": "api/Playlists/UpdatePlaylist/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "playlistDTO",
+        "Type": "PassonProject.Models.PlaylistDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PassonProject.Controllers.PlaylistXSongsController",
+    "Method": "AddSongToPlaylist",
+    "RelativePath": "api/PlaylistXSongs/AddSongToPlaylist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playlistXSongDTO",
+        "Type": "PassonProject.Models.PlaylistXSongDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PassonProject.Controllers.PlaylistXSongsController",
+    "Method": "ListPlaylistsForSong",
+    "RelativePath": "api/PlaylistXSongs/ListPlaylistsForSong/{songId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "songId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PassonProject.Controllers.PlaylistXSongsController",
+    "Method": "ListSongsForPlaylist",
+    "RelativePath": "api/PlaylistXSongs/ListSongsForPlaylist/{playlistId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playlistId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PassonProject.Controllers.PlaylistXSongsController",
+    "Method": "RemoveSongFromPlaylist",
+    "RelativePath": "api/PlaylistXSongs/RemoveSongFromPlaylist/{playlistId}/{songId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playlistId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "songId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PassonProject.Controllers.PlaylistXSongsController",
+    "Method": "UpdateSongAddedDate",
+    "RelativePath": "api/PlaylistXSongs/UpdateSongAddedDate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playlistXSongDTO",
+        "Type": "PassonProject.Models.PlaylistXSongDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PassonProject.Controllers.SongController",
+    "Method": "AddSong",
+    "RelativePath": "api/Song/AddSong",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "songDto",
+        "Type": "PassonProject.Models.SongDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PassonProject.Models.SongDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PassonProject.Controllers.SongController",
+    "Method": "DeleteSong",
+    "RelativePath": "api/Song/DeleteSong/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PassonProject.Controllers.SongController",
+    "Method": "FindSong",
+    "RelativePath": "api/Song/FindSong/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PassonProject.Models.SongDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PassonProject.Controllers.SongController",
+    "Method": "ListSongs",
+    "RelativePath": "api/Song/listSongs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[PassonProject.Models.SongDTO, PassonProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PassonProject.Controllers.SongController",
+    "Method": "UpdateSong",
+    "RelativePath": "api/Song/UpdateSong/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "songDto",
+        "Type": "PassonProject.Models.SongDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
