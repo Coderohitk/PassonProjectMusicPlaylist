@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using PassonProject.Data;
 using PassonProject.Controllers;
+using PassonProject.Interfaces; // Add the namespace for the interface
+using PassonProject.Services;  // Add the namespace for the service
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +19,13 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddControllersWithViews();
+
+// Register your ISongService and its implementation
+builder.Services.AddScoped<ISongService, SongService>(); // Assuming you have a SongService class implementing ISongService
+builder.Services.AddScoped<IPlaylistService, PlaylistService>();
+builder.Services.AddScoped<IPlaylistXSongService, PlaylistXSongService>();
+
+
 
 // ✅ Add Swagger
 builder.Services.AddEndpointsApiExplorer();
@@ -42,22 +51,16 @@ else
     app.UseHsts();
 }
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-};
-
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
 app.UseAuthorization();
 
+// Make sure controllers are properly mapped
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
-
 
 app.Run();

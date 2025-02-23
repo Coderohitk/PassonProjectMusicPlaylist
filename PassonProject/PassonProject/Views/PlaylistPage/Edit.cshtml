@@ -1,0 +1,111 @@
+﻿@model PassonProject.Models.PlaylistDTO
+
+@{
+    ViewData["Title"] = "Edit Playlist";
+}
+
+<h1 class="text-center mb-4">@ViewData["Title"]</h1>
+
+<form asp-action="Edit" asp-route-id="@Model.PlaylistId" method="post" class="mx-auto" style="max-width: 600px;">
+    <input type="hidden" name="PlaylistId" value="@Model.PlaylistId" />
+
+    <!-- Playlist Name Input -->
+    <div class="form-group">
+        <label for="PlaylistName" class="font-weight-bold">Playlist Name</label>
+        <input type="text" class="form-control" id="PlaylistName" name="PlaylistName" value="@Model.PlaylistName" required />
+        @if (ViewData.ModelState["PlaylistName"]?.Errors.Count > 0)
+        {
+            <div class="text-danger">
+                @ViewData.ModelState["PlaylistName"].Errors.FirstOrDefault()?.ErrorMessage
+            </div>
+        }
+    </div>
+
+    <!-- Playlist Description Input -->
+    <div class="form-group">
+        <label for="PlaylistDescription" class="font-weight-bold">Playlist Description</label>
+        <textarea class="form-control" id="PlaylistDescription" name="PlaylistDescription" required>@Model.PlaylistDescription</textarea>
+        @if (ViewData.ModelState["PlaylistDescription"]?.Errors.Count > 0)
+        {
+            <div class="text-danger">
+                @ViewData.ModelState["PlaylistDescription"].Errors.FirstOrDefault()?.ErrorMessage
+            </div>
+        }
+    </div>
+
+    <!-- Created At Input -->
+    <div class="form-group">
+        <label for="CreatedAt" class="font-weight-bold">Created At</label>
+        <input type="datetime-local" class="form-control" id="CreatedAt" name="CreatedAt" value="@Model.CreatedAt.ToString("yyyy-MM-ddTHH:mm")" required />
+        @if (ViewData.ModelState["CreatedAt"]?.Errors.Count > 0)
+        {
+            <div class="text-danger">
+                @ViewData.ModelState["CreatedAt"].Errors.FirstOrDefault()?.ErrorMessage
+            </div>
+        }
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="d-flex justify-content-between mt-4">
+        <button type="submit" class="btn btn-success btn-lg">Update Playlist</button>
+        <a href="@Url.Action("List", "PlaylistPage")" class="btn btn-secondary btn-lg">Cancel</a>
+    </div>
+</form>
+
+<!-- Add Custom Styles -->
+<style>
+    h1 {
+        font-family: 'Arial', sans-serif;
+        font-size: 2.5rem;
+        color: #333;
+    }
+
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+
+    .form-group label {
+        font-size: 1.125rem;
+    }
+
+    .form-control {
+        font-size: 1rem;
+        padding: 0.75rem;
+        border-radius: 0.375rem;
+    }
+
+    .btn {
+        font-weight: bold;
+        padding: 0.5rem 1.5rem;
+        border-radius: 0.375rem;
+    }
+
+    .btn-lg {
+        font-size: 1.125rem;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+
+    .btn-success:hover {
+        background-color: #218838;
+        border-color: #1e7e34;
+    }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        border-color: #6c757d;
+    }
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+        border-color: #4e555b;
+    }
+
+    .text-danger {
+        font-size: 0.875rem;
+        margin-top: 0.25rem;
+    }
+</style>

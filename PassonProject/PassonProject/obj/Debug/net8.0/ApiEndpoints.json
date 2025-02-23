@@ -1,5 +1,26 @@
 [
   {
+    "ContainingType": "PassonProject.Controllers.PlaylistPageController",
+    "Method": "AddSongToPlaylist",
+    "RelativePath": "AddSongToPlaylist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playlistId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "songId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PassonProject.Controllers.PlaylistsController",
     "Method": "AddPlaylist",
     "RelativePath": "api/Playlists/AddPlaylist",
@@ -44,7 +65,7 @@
   {
     "ContainingType": "PassonProject.Controllers.PlaylistsController",
     "Method": "FindPlaylist",
-    "RelativePath": "api/Playlists/FindSong/{id}",
+    "RelativePath": "api/Playlists/FindPlaylist/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -89,22 +110,6 @@
   },
   {
     "ContainingType": "PassonProject.Controllers.PlaylistsController",
-    "Method": "ListSongsForPlaylist",
-    "RelativePath": "api/Playlists/ListSongsForPlaylist/{playlistId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "playlistId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PassonProject.Controllers.PlaylistsController",
     "Method": "UpdatePlaylist",
     "RelativePath": "api/Playlists/UpdatePlaylist/{id}",
     "HttpMethod": "PUT",
@@ -133,9 +138,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "playlistXSongDTO",
-        "Type": "PassonProject.Models.PlaylistXSongDTO",
-        "IsRequired": true
+        "Name": "playlistId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "songId",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

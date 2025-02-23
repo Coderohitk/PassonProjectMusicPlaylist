@@ -1,10 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using PassonProject.Data;
+using PassonProject.Interfaces;
 using PassonProject.Models;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace PassonProject.Controllers
@@ -13,10 +12,11 @@ namespace PassonProject.Controllers
     [ApiController]
     public class PlaylistsController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
-        public PlaylistsController(ApplicationDbContext context)
+        private readonly IPlaylistService _playlistService;
+
+        public PlaylistsController(IPlaylistService playlistService)
         {
-            _context = context;
+            _playlistService = playlistService;
         }
 
         /// <summary>
@@ -31,15 +31,8 @@ namespace PassonProject.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<PlaylistDTO>>> ListPlaylists()
         {
-            var playlists = await _context.Playlists.ToListAsync();
-            var PlaylistDTOS = playlists.Select(p => new PlaylistDTO
-            {
-                PlaylistId = p.PlaylistId,
-                PlaylistName = p.PlaylistName,
-                PlaylistDescription = p.PlaylistDescription,
-                CreatedAt = p.CreatedAt,
-            }).ToList();
-            return Ok(PlaylistDTOS);
+            var playlists = await _playlistService.GetAllPlaylistsAsync();
+            return Ok(playlists);
         }
 
         /// <summary>
@@ -56,18 +49,11 @@ namespace PassonProject.Controllers
         [HttpGet]
         public async Task<ActionResult<PlaylistDTO>> FindPlaylist(int id)
         {
-            var playlistEntity = await _context.Playlists.FindAsync(id);
-            if (playlistEntity == null)
+            var playlistDTO = await _playlistService.GetPlaylistByIdAsync(id);
+            if (playlistDTO == null)
             {
                 return NotFound();
             }
-            var playlistDTO = new PlaylistDTO
-            {
-                PlaylistId = playlistEntity.PlaylistId,
-                PlaylistName = playlistEntity.PlaylistName,
-                PlaylistDescription = playlistEntity.PlaylistDescription,
-                CreatedAt = playlistEntity.CreatedAt,
-            };
             return Ok(playlistDTO);
         }
 
@@ -95,16 +81,9 @@ namespace PassonProject.Controllers
             {
                 return BadRequest("Invalid playlist data.");
             }
-            var playlistEntity = new Playlist
-            {
-                PlaylistName = playlistDTO.PlaylistName,
-                PlaylistDescription = playlistDTO.PlaylistDescription,
-                CreatedAt = playlistDTO.CreatedAt,
-            };
-            _context.Playlists.Add(playlistEntity);
-            await _context.SaveChangesAsync();
-            playlistDTO.PlaylistId = playlistEntity.PlaylistId;
-            return CreatedAtAction(nameof(FindPlaylist), new { id = playlistEntity.PlaylistId }, playlistDTO);
+
+            var createdPlaylist = await _playlistService.AddPlaylistAsync(playlistDTO);
+            return CreatedAtAction(nameof(FindPlaylist), new { id = createdPlaylist.PlaylistId }, createdPlaylist);
         }
 
         /// <summary>
@@ -128,38 +107,21 @@ namespace PassonProject.Controllers
         /// </example>
         [Route("UpdatePlaylist/{id}")]
         [HttpPut]
+        [Authorize]
         public async Task<IActionResult> UpdatePlaylist(int id, PlaylistDTO playlistDTO)
         {
             if (id != playlistDTO.PlaylistId)
             {
                 return BadRequest();
             }
-            var playlistEntity = await _context.Playlists.FindAsync(id);
-            if (playlistEntity == null)
+
+            var updated = await _playlistService.UpdatePlaylistAsync(id, playlistDTO);
+            if (!updated)
             {
                 return NotFound();
             }
-            playlistEntity.PlaylistName = playlistDTO.PlaylistName;
-            playlistEntity.PlaylistDescription = playlistDTO.PlaylistDescription;
-            playlistEntity.CreatedAt = playlistDTO.CreatedAt;
-            _context.Entry(playlistEntity).State = EntityState.Modified;
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!PlaylistExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-            return Ok(new { message = "Playlist updated successfully", playlist = playlistEntity });
+            return Ok(new { message = "Playlist updated successfully", playlist = playlistDTO });
         }
 
         /// <summary>
@@ -174,23 +136,16 @@ namespace PassonProject.Controllers
         /// </example>
         [Route("DeletePlaylist/{id}")]
         [HttpDelete]
+        [Authorize]
         public async Task<IActionResult> DeletePlaylist(int id)
         {
-            var playlistEntity = await _context.Playlists.FindAsync(id);
-            if (playlistEntity == null)
+            var deleted = await _playlistService.DeletePlaylistAsync(id);
+            if (!deleted)
             {
                 return NotFound($"Playlist with ID {id} not found.");
             }
 
-            _context.Playlists.Remove(playlistEntity);
-            await _context.SaveChangesAsync();
-
             return Ok(new { message = "Playlist deleted successfully", playlistId = id });
-        }
-
-        private bool PlaylistExists(int id)
-        {
-            return _context.Playlists.Any(p => p.PlaylistId == id);
         }
     }
 }

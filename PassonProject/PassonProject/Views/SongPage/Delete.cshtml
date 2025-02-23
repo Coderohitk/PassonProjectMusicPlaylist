@@ -1,0 +1,14 @@
+﻿@model PassonProject.Models.SongDTO
+
+@{
+    ViewData["Title"] = "Delete Song";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Are you sure you want to delete the song "<strong>@Model.Title</strong>" by <strong>@Model.Artist</strong>?</p>
+
+<form method="post" asp-action="Delete" asp-route-id="@Model.SongId">
+    <button type="submit" class="btn btn-danger">Yes, Delete</button>
+    <a href="@Url.Action("List", "SongPage")" class="btn btn-secondary">Cancel</a>
+</form>

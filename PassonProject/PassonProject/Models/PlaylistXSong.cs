@@ -18,10 +18,16 @@ namespace PassonProject.Models
 
         public DateTime AddedDate { get; set; }
     }
-    public class PlaylistXSongDTO
-    {
-        public int PlaylistId { get; set; }
-        public int SongId { get; set; }
-        public DateTime AddedDate { get; set; }
+   
+        public class PlaylistXSongDTO
+        {
+            public int PlaylistId { get; set; }
+            public int SongId { get; set; }
+            public DateTime AddedDate { get; set; }
+        public PlaylistDTO Playlist { get; set; }
+
+        // Add the Song property directly in the DTO
+        public SongDTO Song { get; set; } // This should be your SongDTO or a similar class
     }
-}
+    }
+

@@ -1,8 +1,166 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Music Playlist Management";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<!-- Main Container -->
+<div class="container my-5">
+
+    <!-- Welcome Section with Background Image -->
+    <div class="jumbotron" style="background-image: url('https://img.freepik.com/free-photo/flat-lay-music-concept-with-copy-space_23-2148605818.jpg?t=st=1740287705~exp=1740291305~hmac=138be8a95dbe48794860fcb4bc29f6664baf2e6ee19b59afff600d0b46d284a1&w=1800'); background-size: cover; background-position: center; color: white; padding: 60px; border-radius: 15px;">
+        <h1 class="display-4 font-weight-bold text-dark">Welcome to Music Playlist Management!</h1>
+        <p class="lead text-dark">Organize, manage, and share your music collection with ease.</p>
+        <!-- Centered Buttons -->
+        <div class="d-flex justify-content-center mt-4">
+            <a href="@Url.Action("List", "SongPage")" class="btn btn-lg btn-custom my-3 mx-3">Browse Songs</a>
+            <a href="@Url.Action("List", "PlaylistPage")" class="btn btn-lg btn-custom my-3 mx-3">Manage Playlists</a>
+        </div>
+    </div>
+
+    <!-- Core Features Section -->
+    <div class="my-5">
+        <h3 class="text-center mb-4 text-muted font-weight-bold">Core Features</h3> <!-- Added font-weight-bold -->
+        <div class="row text-center">
+            <!-- Feature 1 -->
+            <div class="col-md-4">
+                <div class="card shadow-lg border-light mb-4">
+                    <div class="card-body">
+                        <h4 class="card-title font-weight-bold">Create Custom Playlists</h4> <!-- Added font-weight-bold -->
+                        <p class="card-text">Build your perfect playlist by adding your favorite songs!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature 2 -->
+            <div class="col-md-4">
+                <div class="card shadow-lg border-light mb-4">
+                    <div class="card-body">
+                        <h4 class="card-title font-weight-bold">Manage Your Playlists</h4> <!-- Added font-weight-bold -->
+                        <p class="card-text">Edit, delete, or reorder your playlists with ease.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature 3 -->
+            <div class="col-md-4">
+                <div class="card shadow-lg border-light mb-4">
+                    <div class="card-body">
+                        <h4 class="card-title font-weight-bold">Add or Remove Songs</h4> <!-- Added font-weight-bold -->
+                        <p class="card-text">Easily add or remove songs to/from your playlists.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- How It Works Section -->
+    <div class="my-5">
+        <h3 class="text-center mb-4 text-muted font-weight-bold">How It Works</h3> <!-- Added font-weight-bold -->
+        <div class="row text-center">
+            <!-- Step 1 -->
+            <div class="col-md-4">
+                <div class="step-box">
+                    <div class="step-number">1</div>
+                    <h5 class="font-weight-bold">Create Your Playlist</h5> <!-- Added font-weight-bold -->
+                    <p>Start by creating a playlist and adding songs to it.</p>
+                </div>
+            </div>
+            <!-- Step 2 -->
+            <div class="col-md-4">
+                <div class="step-box">
+                    <div class="step-number">2</div>
+                    <h5 class="font-weight-bold">Manage Your Collection</h5> <!-- Added font-weight-bold -->
+                    <p>Edit your playlists by removing or adding songs.</p>
+                </div>
+            </div>
+            <!-- Step 3 -->
+            <div class="col-md-4">
+                <div class="step-box">
+                    <div class="step-number">3</div>
+                    <h5 class="font-weight-bold">Share and Enjoy</h5> <!-- Added font-weight-bold -->
+                    <p>Share your playlists with friends and discover new music together!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
+
+<!-- Custom Styling -->
+<style>
+    /* Styling for the Jumbotron (Welcome Section) */
+    .jumbotron {
+        border-radius: 15px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+        .jumbotron h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-align-last: center;
+        }
+
+        .jumbotron .btn {
+            font-weight: bold;
+            padding: 1rem 2rem;
+            border-radius: 0.375rem;
+        }
+
+    .text-dark {
+        color: #333 !important;
+        text-align: center;
+    }
+
+    .card {
+        margin: 15px 0;
+        transition: transform 0.3s ease-in-out;
+    }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+    .step-box {
+        background-color: #f1f1f1;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .step-number {
+        background-color: #007bff;
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 0 auto 15px;
+        line-height: 50px;
+    }
+
+    .step-box h5 {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .step-box p {
+        color: #555;
+    }
+
+    footer {
+        font-size: 0.875rem;
+        margin-top: 30px;
+    }
+
+    .btn-custom {
+        background-color: #007bff;
+        color: white;
+        font-weight: bold;
+        border-radius: 0.375rem;
+        transition: all 0.3s ease;
+    }
+
+        .btn-custom:hover {
+            background-color: #0056b3;
+            box-shadow: 0px 2px 10px rgba(0, 123, 255, 0.5);
+        }
+</style>

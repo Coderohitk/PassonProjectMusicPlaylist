@@ -1,0 +1,137 @@
+﻿@model PassonProject.ViewModels.SongDetailsViewModel
+
+@{
+    ViewData["Title"] = "Song Details";
+}
+
+<h1 class="text-center mb-4">@ViewData["Title"]</h1>
+
+<div class="song-details card shadow-sm mx-auto" style="max-width: 600px; padding: 20px;">
+    <h2 class="text-center mb-4">@Model.Song.Title</h2>
+
+    <p><strong>Artist:</strong> @Model.Song.Artist</p>
+    <p><strong>Genre:</strong> @Model.Song.Genre</p>
+    <p><strong>Release Date:</strong> @Model.Song.ReleaseDate.ToShortDateString()</p>
+
+    <!-- Display the playlists the song belongs to -->
+    <hr>
+    <h4>Playlists Containing This Song:</h4>
+    @if (Model.PlaylistsForSong != null && Model.PlaylistsForSong.Any())
+    {
+        <ul class="list-group">
+            @foreach (var playlist in Model.PlaylistsForSong)
+            {
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    @playlist.PlaylistName
+
+                    <!-- Remove Song Button -->
+                    <form asp-action="RemovePlaylistFromSong" method="post" class="d-inline">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="playlistId" value="@playlist.PlaylistId" />
+                        <input type="hidden" name="songId" value="@Model.Song.SongId" />
+                        <button type="submit" class="btn btn-danger btn-sm">Remove from Playlist</button>
+                    </form>
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>This song is not in any playlist yet.</p>
+    }
+
+    <hr>
+
+    <!-- Add a song to a new playlist -->
+    <h4>Add This Song to a New Playlist:</h4>
+    <form asp-action="AddPlaylistToSong" method="post" class="form-inline">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="songId" value="@Model.Song.SongId" />
+
+        <div class="form-group mb-2">
+            <label for="playlistId" class="me-2">Select Playlist:</label>
+            <select name="playlistId" class="form-select">
+                @foreach (var playlist in Model.AvailablePlaylists)
+                {
+                    <option value="@playlist.Value">@playlist.Text</option>
+                }
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary ms-2">Add to Playlist</button>
+    </form>
+
+    <!-- Navigation Buttons -->
+    <div class="d-flex justify-content-between mt-4">
+        <a href="@Url.Action("List", "SongPage")" class="btn btn-secondary">Back to List</a>
+        <a href="@Url.Action("Edit", "SongPage", new { id = Model.Song.SongId })" class="btn btn-primary">Edit</a>
+    </div>
+</div>
+
+<!-- Custom Styles -->
+<style>
+    h1 {
+        font-family: 'Arial', sans-serif;
+        font-size: 2.5rem;
+        color: #333;
+    }
+
+    .song-details {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+        .song-details h2 {
+            font-size: 1.75rem;
+            font-weight: 500;
+            color: #333;
+        }
+
+        .song-details p {
+            font-size: 1.125rem;
+            color: #555;
+        }
+
+    .btn {
+        font-weight: bold;
+        padding: 0.5rem 1.5rem;
+        border-radius: 0.375rem;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        border-color: #6c757d;
+    }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+            border-color: #4e555b;
+        }
+
+    .song-details a {
+        text-decoration: none;
+    }
+
+        .song-details a:hover {
+            opacity: 0.8;
+        }
+
+    .form-select {
+        margin-top: 10px;
+    }
+
+    .list-group {
+        margin-top: 10px;
+    }
+</style>

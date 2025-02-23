@@ -38,6 +38,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Rohit kumar/Documents/Programing class/Semester 2/Back-end-2/PassonProjectMusicPlaylist/PassonProject/PassonProject/Views/PlaylistPage/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RQYWdlXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rohit kumar/Documents/Programing class/Semester 2/Back-end-2/PassonProjectMusicPlaylist/PassonProject/PassonProject/Views/PlaylistPage/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RQYWdlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rohit kumar/Documents/Programing class/Semester 2/Back-end-2/PassonProjectMusicPlaylist/PassonProject/PassonProject/Views/PlaylistPage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RQYWdlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rohit kumar/Documents/Programing class/Semester 2/Back-end-2/PassonProjectMusicPlaylist/PassonProject/PassonProject/Views/PlaylistPage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RQYWdlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rohit kumar/Documents/Programing class/Semester 2/Back-end-2/PassonProjectMusicPlaylist/PassonProject/PassonProject/Views/PlaylistPage/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RQYWdlXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Rohit kumar/Documents/Programing class/Semester 2/Back-end-2/PassonProjectMusicPlaylist/PassonProject/PassonProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,6 +68,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Rohit kumar/Documents/Programing class/Semester 2/Back-end-2/PassonProjectMusicPlaylist/PassonProject/PassonProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rohit kumar/Documents/Programing class/Semester 2/Back-end-2/PassonProjectMusicPlaylist/PassonProject/PassonProject/Views/SongPage/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1BhZ2VcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rohit kumar/Documents/Programing class/Semester 2/Back-end-2/PassonProjectMusicPlaylist/PassonProject/PassonProject/Views/SongPage/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1BhZ2VcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rohit kumar/Documents/Programing class/Semester 2/Back-end-2/PassonProjectMusicPlaylist/PassonProject/PassonProject/Views/SongPage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1BhZ2VcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rohit kumar/Documents/Programing class/Semester 2/Back-end-2/PassonProjectMusicPlaylist/PassonProject/PassonProject/Views/SongPage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1BhZ2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rohit kumar/Documents/Programing class/Semester 2/Back-end-2/PassonProjectMusicPlaylist/PassonProject/PassonProject/Views/SongPage/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1BhZ2VcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Rohit kumar/Documents/Programing class/Semester 2/Back-end-2/PassonProjectMusicPlaylist/PassonProject/PassonProject/Views/_ViewImports.cshtml]
